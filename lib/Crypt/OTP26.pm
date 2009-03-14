@@ -31,7 +31,7 @@ package Crypt::OTP26;
 use strict; use warnings;
 use Data::Dumper;
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 use constant ORD_A => ord('a');
 
 =head1 METHODS
@@ -189,10 +189,14 @@ sub mk_stream {
 
 =head1 AUTHOR
 
-    (C) 2006
+    (C) 2009
     osfameron@cpan.org
 
     May be distributed under the same conditions as Perl itself
+
+Repo is at L<http://github.com/osfameron/crypt-otp26/> 
+
+(Clone url: git://github.com/osfameron/crypt-otp26.git )
 
 =cut
 
